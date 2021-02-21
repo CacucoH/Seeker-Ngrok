@@ -2,6 +2,8 @@ echo '[i] Updating...'
 apk update > install.log
 echo
 echo '[i] Installing Dependencies...'
+echo '    Installing bash'
+apk add bash &>> install.log
 echo '    Installing Python3'
 apk add python3 setuptools &>> install.log
 echo '    Installing PHP'
@@ -15,5 +17,5 @@ echo
 echo '[i] Setting Permissions...'
 chmod 777 template/nearyou/php/info.txt
 chmod 777 template/nearyou/php/result.txt
-echo
+echo 
 echo '[i] Succesfully installed!'
