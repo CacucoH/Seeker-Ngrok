@@ -10,6 +10,7 @@ echo '    Installing SSH'
 apk add openssh &>> install.log
 echo '    Installing Requests'
 pip3 install requests &>> install.log
+pip3 install pyngrok &>> install.log
 echo
 echo '[i] Setting Permissions...'
 chmod 777 template/nearyou/php/info.txt
