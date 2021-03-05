@@ -5,6 +5,7 @@ The link to the original project: https://github.com/thewhiteh4t/seeker
 
 ## Installation:
 ```
+apk add bash
 git clone https://github.com/CacucoH/Seeker-Ngrok
 cd Seeker-Ngrok
 bash install.sh
