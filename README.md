@@ -15,7 +15,10 @@ bash install.sh
 ```
 ## Using:
 Congradulations! You just installed the programm!
-Now you can start it with python3 seeker.py -t manual 
+Now you can start it with 
+```
+python3 seeker.py -t manual
+```
 Have fun :)
 ## Bonus:
 Now iSH doesnt have apk installed. If you dont have apk installed yet just type
