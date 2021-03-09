@@ -1,0 +1,47 @@
+{
+    "templates": [
+        {
+            "name": "NearYou",
+            "dir_name": "nearyou",
+            "module": false,
+            "import_file": null
+        },
+        {
+            "name": "Google Drive",
+            "dir_name": "gdrive",
+            "module": true,
+            "import_file": "mod_gdrive"
+        },
+	{
+            "name": "Google Drive_RUS",
+            "dir_name": "gdrive_rus",
+            "module": true,
+            "import_file": "mod_gdrive_rus"
+        },
+        {
+            "name": "WhatsApp_RUS",
+            "dir_name": "whatsapp_rus",
+            "module": true,
+            "import_file": "mod_whatsapp_rus"
+        },
+	{
+            "name": "WhatsApp",
+            "dir_name": "whatsapp",
+            "module": true,
+            "import_file": "mod_whatsapp"
+	},
+        {
+            "name": "Telegram",
+            "dir_name": "telegram",
+            "module": true,
+            "import_file": "mod_telegram"
+        },
+	{
+	
+            "name": "Telegram_RUS",
+            "dir_name": "telegram_rus",
+            "module": true,
+            "import_file": "mod_telegram_rus"
+        }
+    ]
+}
